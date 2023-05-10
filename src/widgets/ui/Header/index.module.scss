@@ -1,0 +1,70 @@
+@import "src/App/index";
+
+.header {
+  padding: 57px 40px 88px 40px;
+
+  .header__container {
+
+    display: flex;
+    gap: 77px;
+    align-items: center;
+
+    .header__menu {
+      display: flex;
+      gap: 40px;
+
+      .header__navigate {
+        display: flex;
+
+        .button {
+          border-radius: 50px;
+          box-shadow: 0 4px 18px rgba(210, 209, 209, 0.5);
+          background: #FFFFFF;
+          width: 40px;
+          height: 40px;
+          border: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      .header__points {
+        width: 728px;
+        position: relative;
+        overflow: hidden;
+
+        .border__line {
+          border-bottom: 1.5px solid #D2D1D1;
+        }
+
+        .items {
+          padding-bottom: 14px;
+          white-space: nowrap;
+          transition: 0.5s;
+
+          > span {
+            margin-right: 40px;
+            font-family: $font--ProximaNova;
+            font-style: $font--style--normal;
+            font-weight: $font--weight--600;
+            font-size: $font--size--16;
+            line-height: $line--height--24;
+            color: $color--D2D1D1;
+          }
+
+          > .active__item {
+            padding-bottom: 16px;
+            border-bottom: 4.5px solid #54D3C2;
+            color: #323F47;
+          }
+        }
+      }
+
+    }
+
+  }
+
+}
+
+

@@ -1,0 +1,12 @@
+.aside {
+  display: flex;
+  width: 267px;
+  border-radius: 56px;
+  background: linear-gradient(180deg, #54D3C2 0%, #30898A 100%);
+  flex-direction: column;
+  align-items: flex-start;
+
+  .logo {
+    margin: 56px 0 84.5px 32px;
+  }
+}

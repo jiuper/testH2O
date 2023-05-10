@@ -1,0 +1,29 @@
+.pageAuth {
+  margin: 0 auto;
+  max-width: 350px;
+
+  .pageAuth-caption {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background: linear-gradient(180deg, #54D3C2 0%, #30898A 100%);
+    border-radius: 25px 25px 0 0;
+
+    span {
+      color: white;
+      font-size: 32px;
+    }
+
+  }
+
+  .pageAuth-form {
+    position: absolute;
+    top: 55px;
+    border-radius: 25px;
+    background: white;
+    padding: 0 36px;
+  }
+
+}
+
