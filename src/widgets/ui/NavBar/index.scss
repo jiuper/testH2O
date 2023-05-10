@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.active {
+  background: url("../../../shared/assets/Images/Rectangle.svg") center no-repeat;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+}

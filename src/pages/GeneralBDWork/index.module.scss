@@ -1,0 +1,96 @@
+@import "src/App/index";
+
+.caption > h3 {
+  font-family: $font--ProximaNova;
+  font-style: $font--style--normal;
+  font-weight: $font--weight--800;
+  font-size: $font--size--28;
+  line-height: $line--height--44;
+  color: $color--323F47;
+}
+
+.panel {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 35px;
+  background: #FFFFFF;
+  border-radius: 32px;
+
+  .panel__left {
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    .panel__count {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-family: $font--ProximaNova;
+      font-style: $font--style--normal;
+      font-weight: $font--weight--600;
+      font-size: 12px;
+      line-height: $line--height--44;
+      color: #6D7986;
+
+      .count {
+        font-size: $font--size--28;
+        color: $color--54D3C2;
+      }
+    }
+
+    > .search > span {
+      border: none;
+      border-radius: 24px;
+      width: 360px;
+      height: 48px;
+      box-shadow: none;
+
+      > input::placeholder {
+        color: #989FA3;
+        font-family: $font--ProximaNova;
+        font-size: $font--size--16;
+        font-weight: $font--weight--600;
+        font-style: $font--style--normal;
+      }
+    }
+
+  }
+
+  .panel__right {
+
+    > button {
+      border: 1.5px solid $color--54D3C2;
+      height: 52px;
+      color: $color--54D3C2;
+      padding: 15px 10px 12px 16px;
+      border-radius: 50px;
+
+      > span {
+        font-family: $font--ProximaNova;
+        font-size: $font--size--16;
+        font-weight: $font--weight--600;
+        font-style: $font--style--normal;
+      }
+    }
+  }
+
+}
+
+.table {
+  margin: 81px 40px 0 40px;
+}
+
+.pagination {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 300px;
+  justify-content: flex-end;
+
+  > select {
+    border: none;
+  }
+}

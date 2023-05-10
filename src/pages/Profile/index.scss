@@ -1,0 +1,51 @@
+.profile {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 400px;
+
+  .profile__body {
+    display: flex;
+  }
+
+  .profile__title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile__edit {
+    display: flex;
+    align-items: center;
+
+    > label {
+      font-size: 14px;
+      line-height: 20px;
+      color: #C0C0C0;
+    }
+
+    > img {
+      width: 13.5px;
+      margin-right: 6.5px;
+    }
+  }
+
+  .avatar {
+    width: 147px;
+    height: 147px;
+    margin-right: 24px;
+  }
+
+  span {
+    font-family: "Proxima Nova", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+
+
+
+
+

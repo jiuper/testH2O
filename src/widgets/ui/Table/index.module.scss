@@ -1,0 +1,86 @@
+@import "src/App/index";
+
+.table {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  width: 1292px;
+
+
+  .table__header {
+    display: flex;
+    flex-direction: column;
+
+    .header__item {
+      display: grid;
+      justify-content: flex-start;
+      align-items: center;
+      height: 30px;
+      font-family: $font--ProximaNova;
+      font-style: $font--style--normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: $line--height--24;
+      color: $color--54D3C2;
+
+      > .item {
+        display: flex;
+        gap: 40px;
+      }
+    }
+
+    .button {
+      border: none;
+      background: none;
+      display: flex;
+    }
+  }
+
+  .table__body {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 28px;
+
+    .body__items {
+      display: grid;
+      grid-template-columns: 44px 206px 97px 107px 87px 113px 121px 183px 121px 137px 118px 105px 184px 113px 117px 183px repeat(2, 113px) repeat(5, 137px) 121px 137px 114px 203px;
+      align-items: center;
+
+      > .item {
+        font-family: $font--ProximaNova;
+        font-style: $font--style--normal;
+        font-weight: $font--weight--600;
+        font-size: 12px;
+        line-height: $line--height--44;
+        color: #6D7986;
+      }
+
+      > .error {
+        background: #FC5C65;
+        border-radius: 4px;
+        color: #F8F8F8;
+        height: 43px;
+        width: 64px;
+      }
+    }
+  }
+}
+
+.table::-webkit-scrollbar {
+  height: 8px;
+}
+
+.table::-webkit-scrollbar-thumb {
+  background-color: #B6BCC3;
+  border-radius: 4px;
+}
+
+.small__icon {
+  background: none;
+  border: none;
+
+  > img {
+    width: 13.5px;
+    margin-right: 6.5px;
+  }
+}

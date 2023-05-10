@@ -1,0 +1,28 @@
+.wrapper {
+  max-width: 1529px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .container {
+    flex: 1 1 auto;
+    display: grid;
+    grid-template-columns: 147px 1fr;
+
+    .header-container {
+      border-radius: 56px;
+      background: #FFFFFF;
+      height: 100%;
+    }
+
+    .main-container {
+      padding: 0 40px;
+      border-radius: 56px;
+      background: #F8F8F8;
+    }
+  }
+}
+
+
